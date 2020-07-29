@@ -1,0 +1,10 @@
+[FILE]
+# Para carpeta compartida seguir la siguiente estructura
+# \\192.168.1.9\\carpeta\\archivo.xlsx'
+io = C:/Users/iaedo/Desktop/BD/BD BODEGAS Y CLIENTES.xlsx
+sheet_name = CLIENTES
+header = 0
+
+[TIMER]
+# En segundos
+delay = 60
