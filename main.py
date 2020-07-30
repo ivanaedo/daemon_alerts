@@ -69,11 +69,11 @@ def create_table(*args):
 
 def create_warning(*args):
     text_warning = args
-    root = tk.Tk()
-    T = tk.Text(root, height=10, width=30)
+    root = Tk()
+    T = Text(root, height=10, width=30)
     T.pack()
-    T.insert(tk.END, text_warning)
-    tk.mainloop()
+    T.insert(END, text_warning)
+    root.mainloop()
 
 
 def compExcel(df_past, df_current):
