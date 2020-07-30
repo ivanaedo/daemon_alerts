@@ -5,7 +5,7 @@ Programa que alerta sobre cambios en archivo Excel.
 
 
 
-#CONFIGURACION
+#CONFIGURATION
 
 Al ejecutarse se quedará todo el tiempo revisando y solo se cerrará si no encuentra el archivo.
 Las configuraciones se deben hacer en el archivo config.txt
@@ -14,3 +14,9 @@ Las configuraciones se deben hacer en el archivo config.txt
  - header: número de fila (comenzando por 0) donde comienza la tabla. Lo que este en esa fila se toma como nombre para las columnas.
  - delay: tiempo entre captura de datos para su comparación en segundos.
  *Todos los parámetros son obligatorios.
+
+
+
+#INSTALLATION
+=WIN=
+pyinstaller --noconsole main.py
