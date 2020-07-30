@@ -1,4 +1,5 @@
-- Logs
-- TRY: ERROR EN SHEET_NAME OR HEADER
-
-  
+ - Modo "silencioso" (quitar ventana tipo DOS)
+ - Agregar archivo que guarde el histórico de la misma información de los cambios. 
+ - La ventana que muestra los cambios indica un número de fila interno, debería sumársele 2 + header.
+ - Evaluar tiempo de ejecución*
+ 
