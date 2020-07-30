@@ -28,3 +28,4 @@ Las configuraciones se deben hacer en el archivo config.txt
 #INSTALLATION
 =WIN=
 pyinstaller --noconsole main.py
+Or be lazzy and download from https://mega.nz/file/i4lhlLJI#6cgnh_0MIf05bRMCj7aGXYM_G3Rasn71qN8QzUptmyc
