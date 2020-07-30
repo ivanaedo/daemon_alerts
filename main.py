@@ -27,7 +27,7 @@ def timerRead(CONFIG):
     DELAY = int(CONFIG['TIMER']['delay'])
     try:
         df_past = pd.read_excel(IO, SHEET_NAME, HEADER)
-        print('reading...')
+        #print('reading...')
         time_past = datetime.now().strftime("%d/%m/%Y, %H:%M:%S")
     except:
         create_warning('¡Archivo no encontrado! Revisar config.txt')
