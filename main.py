@@ -6,6 +6,7 @@ Created on Sat Jul 18 10:58:45 2020
 """
 import configparser
 from datetime import datetime
+import os
 import pandas as pd
 import sys
 from time import sleep
@@ -20,7 +21,7 @@ CONFIG.read(CONFIG_FILE)
 
 
 def timerRead(CONFIG):
-    IO = CONFIG['FILE']['io']
+    IO = os.path.normpath(CONFIG['FILE']['io'])
     SHEET_NAME = CONFIG['FILE']['sheet_name']
     HEADER = int(CONFIG['FILE']['header'])
     DELAY = int(CONFIG['TIMER']['delay'])
